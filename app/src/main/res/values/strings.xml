@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PJH_LinePlusProject</string>
+    <string name="button_new_memo">New Memo</string>
+    <string name="title">Title</string>
+    <string name="contents">Contents</string>
+    <string name="save">Save</string>
+    <string name="request_permissions">Permissions required</string>
+    <string name="wrong_approach">"It's a wrong approach"</string>
+    <string name="remove_picture">Remove picture</string>
+    <string name="remove_confirm">Remove it?</string>
+    <string name="error_url">Invalid URL or network state unstable.</string>
+    <string name="search">Search</string>
+    <string name="attach">Attach</string>
+    <string name="modify">Modify</string>
+    <string name="creation">Created at : </string>
+    <string name="modification">Modified at : </string>
+    <string name="remove">Remove</string>
+</resources>

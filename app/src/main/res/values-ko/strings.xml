@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">박준화_라인플러스 앱 과제</string>
+    <string name="button_new_memo">새 메모</string>
+    <string name="title">제목</string>
+    <string name="contents">내용</string>
+    <string name="save">저장</string>
+    <string name="request_permissions">권한이 필요합니다</string>
+    <string name="wrong_approach">잘못된 접근입니다</string>
+    <string name="remove_picture">사진 삭제</string>
+    <string name="remove_confirm">삭제하시겠습니까?</string>
+    <string name="error_url">네트워크 상태 혹은 URL을 확인해주세요</string>
+    <string name="search">이미지 확인</string>
+    <string name="attach">첨부</string>
+    <string name="modify">수정</string>
+    <string name="creation">생성 : </string>
+    <string name="modification">수정 : </string>
+    <string name="remove">삭제</string>
+</resources>
