@@ -1,6 +1,5 @@
 package com.junhwa.lineplusproject;
 
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.test.espresso.contrib.RecyclerViewActions;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
@@ -138,6 +137,7 @@ public class MemoEspressoTest {
         MemoItem item = adapter.getMemo(0);
         assertEquals(title, item.getTitle());
         assertEquals(contents, item.getContents());
+        //pressBack();
         //onView(withId(R.id.recyclerMemo)).perform(RecyclerViewActions.actionOnItemAtPosition(0, click()));
     }
 }
