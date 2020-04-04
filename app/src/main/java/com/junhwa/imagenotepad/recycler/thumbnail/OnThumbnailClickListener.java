@@ -1,4 +1,4 @@
-package com.junhwa.lineplusproject.recycler.thumbnail;
+package com.junhwa.imagenotepad.recycler.thumbnail;
 
 import android.view.View;
 

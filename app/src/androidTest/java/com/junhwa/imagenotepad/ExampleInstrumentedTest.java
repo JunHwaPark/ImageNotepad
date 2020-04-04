@@ -1,4 +1,4 @@
-package com.junhwa.lineplusproject;
+package com.junhwa.imagenotepad;
 
 import android.content.Context;
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">박준화_라인플러스 앱 과제</string>
+    <string name="app_name">이미지 메모장</string>
     <string name="button_new_memo">새 메모</string>
     <string name="title">제목</string>
     <string name="contents">내용</string>

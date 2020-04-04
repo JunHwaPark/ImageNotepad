@@ -1,13 +1,13 @@
-package com.junhwa.lineplusproject;
+package com.junhwa.imagenotepad;
 
 import androidx.test.espresso.contrib.RecyclerViewActions;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.filters.LargeTest;
 import androidx.test.rule.ActivityTestRule;
 
-import com.junhwa.lineplusproject.activity.MemoListActivity;
-import com.junhwa.lineplusproject.recycler.memo.MemoAdapter;
-import com.junhwa.lineplusproject.recycler.memo.MemoItem;
+import com.junhwa.imagenotepad.activity.MemoListActivity;
+import com.junhwa.imagenotepad.recycler.memo.MemoAdapter;
+import com.junhwa.imagenotepad.recycler.memo.MemoItem;
 
 import org.junit.Before;
 import org.junit.FixMethodOrder;

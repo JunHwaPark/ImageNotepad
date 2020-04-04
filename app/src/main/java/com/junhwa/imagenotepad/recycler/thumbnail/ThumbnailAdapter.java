@@ -1,4 +1,4 @@
-package com.junhwa.lineplusproject.recycler.thumbnail;
+package com.junhwa.imagenotepad.recycler.thumbnail;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -12,14 +12,14 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.junhwa.lineplusproject.R;
-import com.junhwa.lineplusproject.activity.MemoListActivity;
+import com.junhwa.imagenotepad.R;
+import com.junhwa.imagenotepad.activity.MemoListActivity;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static com.junhwa.lineplusproject.activity.MemoListActivity.fileIndexComparator;
+import static com.junhwa.imagenotepad.activity.MemoListActivity.fileIndexComparator;
 
 public class ThumbnailAdapter extends RecyclerView.Adapter<ThumbnailAdapter.ItemViewHolder> implements OnThumbnailClickListener{
     private ArrayList<Bitmap> thumbnails = new ArrayList<>();

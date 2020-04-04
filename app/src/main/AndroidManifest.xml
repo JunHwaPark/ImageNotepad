@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.junhwa.lineplusproject">
+    package="com.junhwa.imagenotepad">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -13,13 +13,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.UrlImageActivity"></activity>
-        <activity android:name=".activity.PagerActivity" />
-        <activity android:name=".activity.ViewMemoActivity" />
+        <activity android:name="com.junhwa.imagenotepad.activity.UrlImageActivity"></activity>
+        <activity android:name="com.junhwa.imagenotepad.activity.PagerActivity" />
+        <activity android:name="com.junhwa.imagenotepad.activity.ViewMemoActivity" />
         <activity
-            android:name=".activity.WriteActivity"
+            android:name="com.junhwa.imagenotepad.activity.WriteActivity"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".activity.MemoListActivity">
+        <activity android:name="com.junhwa.imagenotepad.activity.MemoListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
         <provider
-            android:authorities="com.junhwa.lineplusproject"
+            android:authorities="com.junhwa.imagenotepad"
             android:name="androidx.core.content.FileProvider"
             android:exported="false"
             android:grantUriPermissions="true">

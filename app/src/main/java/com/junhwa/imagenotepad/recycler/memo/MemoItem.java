@@ -1,4 +1,4 @@
-package com.junhwa.lineplusproject.recycler.memo;
+package com.junhwa.imagenotepad.recycler.memo;
 
 import android.graphics.Bitmap;
 

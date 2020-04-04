@@ -4,26 +4,17 @@ android {
     compileSdkVersion 28
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.junhwa.lineplusproject"
+        applicationId "com.junhwa.imagenotepad"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    signingConfigs{
-        release {
-            storeFile file("C:\\Users\\junhwa\\AndroidStudioProjects\\temp_key.jks")
-            storePassword "password123"
-            keyAlias "key0"
-            keyPassword "password123"
-        }
-    }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
         }
     }
 }

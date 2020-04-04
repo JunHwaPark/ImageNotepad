@@ -1,4 +1,4 @@
-package com.junhwa.lineplusproject.activity;
+package com.junhwa.imagenotepad.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.junhwa.lineplusproject.R;
+import com.junhwa.imagenotepad.R;
 
 import java.io.InputStream;
 import java.net.URL;

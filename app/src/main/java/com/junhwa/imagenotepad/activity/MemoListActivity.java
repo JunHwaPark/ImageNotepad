@@ -1,4 +1,4 @@
-package com.junhwa.lineplusproject.activity;
+package com.junhwa.imagenotepad.activity;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -14,11 +14,11 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.junhwa.lineplusproject.R;
-import com.junhwa.lineplusproject.database.MemoDatabase;
-import com.junhwa.lineplusproject.recycler.memo.MemoAdapter;
-import com.junhwa.lineplusproject.recycler.memo.MemoItem;
-import com.junhwa.lineplusproject.recycler.memo.OnItemClickListener;
+import com.junhwa.imagenotepad.R;
+import com.junhwa.imagenotepad.database.MemoDatabase;
+import com.junhwa.imagenotepad.recycler.memo.MemoAdapter;
+import com.junhwa.imagenotepad.recycler.memo.MemoItem;
+import com.junhwa.imagenotepad.recycler.memo.OnItemClickListener;
 import com.pedro.library.AutoPermissions;
 import com.pedro.library.AutoPermissionsListener;
 

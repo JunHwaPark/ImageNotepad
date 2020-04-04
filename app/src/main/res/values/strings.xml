@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PJH_LinePlusProject</string>
+    <string name="app_name">ImageNotepad</string>
     <string name="button_new_memo">New Memo</string>
     <string name="title">Title</string>
     <string name="contents">Contents</string>

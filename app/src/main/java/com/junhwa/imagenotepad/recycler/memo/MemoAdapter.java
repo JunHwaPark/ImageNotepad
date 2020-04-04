@@ -1,4 +1,4 @@
-package com.junhwa.lineplusproject.recycler.memo;
+package com.junhwa.imagenotepad.recycler.memo;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.junhwa.lineplusproject.R;
+import com.junhwa.imagenotepad.R;
 
 import java.util.ArrayList;
 

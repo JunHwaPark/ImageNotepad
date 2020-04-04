@@ -1,4 +1,4 @@
-package com.junhwa.lineplusproject.database;
+package com.junhwa.imagenotepad.database;
 
 import android.content.ContentValues;
 import android.content.Context;

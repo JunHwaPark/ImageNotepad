@@ -1,4 +1,4 @@
-package com.junhwa.lineplusproject.activity;
+package com.junhwa.imagenotepad.activity;
 
 import android.content.ClipData;
 import android.content.ContentResolver;
@@ -27,10 +27,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.junhwa.lineplusproject.R;
-import com.junhwa.lineplusproject.database.MemoDatabase;
-import com.junhwa.lineplusproject.recycler.thumbnail.OnThumbnailClickListener;
-import com.junhwa.lineplusproject.recycler.thumbnail.ThumbnailAdapter;
+import com.junhwa.imagenotepad.R;
+import com.junhwa.imagenotepad.database.MemoDatabase;
+import com.junhwa.imagenotepad.recycler.thumbnail.OnThumbnailClickListener;
+import com.junhwa.imagenotepad.recycler.thumbnail.ThumbnailAdapter;
 
 import java.io.File;
 import java.io.FileInputStream;
